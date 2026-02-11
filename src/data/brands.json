@@ -1,0 +1,123 @@
+[
+  {
+    "_id": "b1",
+    "brand_name": "Daraz",
+    "rating": 4.5,
+    "description": "The leading online marketplace in South Asia, providing a professional platform for vendors to sell their products.",
+    "brand_logo": "https://i.ibb.co/mS6z2yD/daraz.png",
+    "shop-Link": "https://www.daraz.com.bd/",
+    "category": "E-commerce",
+    "isSaleOn": true,
+    "coupons": [
+      {
+        "coupon-code": "DARAZ2024",
+        "description": "Get 15% off on your first purchase.",
+        "expiry-date": "2024-12-31",
+        "condition": "First order only",
+        "cupon_type": "Discount"
+      },
+      {
+        "coupon-code": "SAVE500",
+        "description": "500 BDT off on orders over 5000 BDT.",
+        "expiry-date": "2024-11-30",
+        "condition": "Minimum spend 5000 BDT",
+        "cupon_type": "Cashback"
+      }
+    ]
+  },
+  {
+    "_id": "b2",
+    "brand_name": "Foodpanda",
+    "rating": 4.2,
+    "description": "Order food and groceries online from the best restaurants and shops near you.",
+    "brand_logo": "https://i.ibb.co/f4nPkMh/foodpanda.png",
+    "shop-Link": "https://www.foodpanda.com.bd/",
+    "category": "Food Delivery",
+    "isSaleOn": true,
+    "coupons": [
+      {
+        "coupon-code": "PANDALOVE",
+        "description": "50% off on your first food order.",
+        "expiry-date": "2024-12-25",
+        "condition": "New users only",
+        "cupon_type": "Percentage"
+      }
+    ]
+  },
+  {
+    "_id": "b3",
+    "brand_name": "Rokomari",
+    "rating": 4.8,
+    "description": "Largest online bookstore in Bangladesh, offering a wide collection of books and electronics.",
+    "brand_logo": "https://i.ibb.co/0XzG0K6/rokomari.png",
+    "shop-Link": "https://www.rokomari.com/",
+    "category": "Books & Electronics",
+    "isSaleOn": false,
+    "coupons": [
+      {
+        "coupon-code": "ROKO20",
+        "description": "Extra 20% discount on selected books.",
+        "expiry-date": "2025-01-15",
+        "condition": "Selected items",
+        "cupon_type": "Discount"
+      }
+    ]
+  },
+  {
+    "_id": "b4",
+    "brand_name": "Pickaboo",
+    "rating": 4.4,
+    "description": "One-stop online shopping destination for all your mobile, electronics, and accessories needs.",
+    "brand_logo": "https://i.ibb.co/Vqh9ZXV/pickaboo.png",
+    "shop-Link": "https://www.pickaboo.com/",
+    "category": "Electronics",
+    "isSaleOn": true,
+    "coupons": [
+      {
+        "coupon-code": "MOBILE10",
+        "description": "10% off on smartphones.",
+        "expiry-date": "2024-12-20",
+        "condition": "Selected mobile brands",
+        "cupon_type": "Voucher"
+      }
+    ]
+  },
+  {
+    "_id": "b5",
+    "brand_name": "Chaldal",
+    "rating": 4.6,
+    "description": "The online grocery shop that delivers fresh fruits, vegetables, and everyday essentials to your door.",
+    "brand_logo": "https://i.ibb.co/0VvjCjG/chaldal.png",
+    "shop-Link": "https://chaldal.com/",
+    "category": "Grocery",
+    "isSaleOn": true,
+    "coupons": [
+      {
+        "coupon-code": "FRESH100",
+        "description": "100 BDT off on 1000 BDT spend.",
+        "expiry-date": "2024-12-10",
+        "condition": "Minimum order 1000 BDT",
+        "cupon_type": "Instant Discount"
+      }
+    ]
+  },
+  {
+    "_id": "b6",
+    "brand_name": "Bata",
+    "rating": 4.3,
+    "description": "The ultimate destination for comfortable and stylish footwear for all ages.",
+    "brand_logo": "https://i.ibb.co/6yV00p8/bata.png",
+    "shop-Link": "https://www.batabd.com/",
+    "category": "Fashion",
+    "isSaleOn": false,
+    "coupons": [
+      {
+        "coupon-code": "BATA200",
+        "description": "200 BDT discount on any shoe purchase.",
+        "expiry-date": "2024-12-30",
+        "condition": "None",
+        "cupon_type": "Voucher"
+      }
+    ]
+  }
+]
