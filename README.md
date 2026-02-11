@@ -49,7 +49,7 @@ Discount PRO is a modern React application that helps users find and collect dis
 
    ```bash
    git clone [your-repo-link]
-   cd assignment-9
+   cd discount-pro
    ```
 
 2. **Install dependencies**:
