@@ -4,7 +4,7 @@ Discount PRO is a modern React application that helps users find and collect dis
 
 ## 🚀 Live Demo
 
-[Add your live deployment link here, e.g., Netlify/Firebase/Vercel]
+https://discount-pro-ac945.web.app/
 
 ## ✨ Key Features
 
