@@ -1,16 +1,86 @@
-# React + Vite
+# Discount PRO - Coupon Collection App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Discount PRO is a modern React application that helps users find and collect discount coupons for popular e-commerce platforms in Bangladesh, such as Daraz, Foodpanda, and Rokomari.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Add your live deployment link here, e.g., Netlify/Firebase/Vercel]
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Featured Banner**: Eye-catching promotional slider using Swiper.js.
+- **Top Brands Marquee**: A scrolling marquee showing partner brand logos for quick access.
+- **Brands on Sale**: A dedicated section for brands currently offering active discounts.
+- **Brand Search**: Easily search through a comprehensive list of partner shops.
+- **Secure Authentication**:
+  - Email & Password Registration/Login.
+  - Google Social Sign-in.
+  - Form validation with real-time feedback.
+  - Password Reset flow with automated redirection.
+- **Private Routes**: Secure access to brand details and coupon collection for registered users.
+- **Coupon Clipping**: One-click "Copy Code" feature with `react-copy-to-clipboard` and success toast notifications.
+- **User Dashboard**: View and update profile information including display name and photo.
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop views using Tailwind CSS and DaisyUI.
+- **Eye-Candy Animations**: Integrated `AOS` (Animate On Scroll) and `Framer Motion` for a premium user experience.
 
-## Expanding the ESLint configuration
+## 🛠️ Technology Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Framework**: React 19 (Vite)
+- **Styling**: Tailwind CSS 4 & DaisyUI 5
+- **Icons**: Lucide React
+- **Authentication**: Firebase Auth
+- **Routing**: React Router 7
+- **Animations**: AOS, Framer Motion
+- **Toasts**: React Hot Toast
+- **Slider**: Swiper.js
+- **Utility**: CLSX & Tailwind Merge
+
+## 📦 Main Dependencies Used
+
+- `firebase`: Handles all backend authentication logic.
+- `react-fast-marquee`: Powering the smooth, high-performance brand logo scroll.
+- `react-copy-to-clipboard`: Enables standard clipboard interactions for coupon codes.
+- `aos`: Provides lightweight "animate on scroll" effects.
+- `framer-motion`: Used for advanced interactive transitions and micro-animations.
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone [your-repo-link]
+   cd assignment-9
+   ```
+
+2. **Install dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+3. **Environment Setup**:
+   Create a `.env` file in the root directory and add your Firebase credentials (see `.env.example`):
+
+   ```env
+   VITE_apiKey=your_api_key
+   VITE_authDomain=your_auth_domain
+   VITE_projectId=your_project_id
+   VITE_storageBucket=your_storage_bucket
+   VITE_messagingSenderId=your_sender_id
+   VITE_appId=your_app_id
+   ```
+
+4. **Run the development server**:
+
+   ```bash
+   npm run dev
+   ```
+
+5. **Build for production**:
+   ```bash
+   npm run build
+   ```
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
