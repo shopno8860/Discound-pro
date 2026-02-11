@@ -1,86 +1,114 @@
-# Discount PRO - Coupon Collection App
+# 🎫 Discount PRO
 
-Discount PRO is a modern React application that helps users find and collect discount coupons for popular e-commerce platforms in Bangladesh, such as Daraz, Foodpanda, and Rokomari.
+**Discount PRO** is a premium, high-performance coupon collection platform built for the modern web. It enables users to browse, search, and collect exclusive discounts from the most popular brands in Bangladesh, featuring a seamless user experience, secure authentication, and a stunning dark/light interface.
 
-## 🚀 Live Demo
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://discount-pro-ac945.web.app/)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
 
-https://discount-pro-ac945.web.app/
+---
 
 ## ✨ Key Features
 
-- **Featured Banner**: Eye-catching promotional slider using Swiper.js.
-- **Top Brands Marquee**: A scrolling marquee showing partner brand logos for quick access.
-- **Brands on Sale**: A dedicated section for brands currently offering active discounts.
-- **Brand Search**: Easily search through a comprehensive list of partner shops.
-- **Secure Authentication**:
-  - Email & Password Registration/Login.
-  - Google Social Sign-in.
-  - Form validation with real-time feedback.
-  - Password Reset flow with automated redirection.
-- **Private Routes**: Secure access to brand details and coupon collection for registered users.
-- **Coupon Clipping**: One-click "Copy Code" feature with `react-copy-to-clipboard` and success toast notifications.
-- **User Dashboard**: View and update profile information including display name and photo.
-- **Responsive Design**: Fully optimized for mobile, tablet, and desktop views using Tailwind CSS and DaisyUI.
-- **Eye-Candy Animations**: Integrated `AOS` (Animate On Scroll) and `Framer Motion` for a premium user experience.
+### 🚀 Performance & UI
 
-## 🛠️ Technology Stack
+- **Modern Dashboard**: Clean, professional layout with a focus on usability.
+- **Dynamic Theming**: Instant Dark/Light mode toggle with persistence using `localStorage`.
+- **Interactive Carousel**: Smooth promotional banner powered by **Swiper.js**.
+- **Brand Marquee**: High-performance scrolling loop for partner brand logos.
+- **Micro-Animations**: Elegant entrance and hover effects using **AOS** and **Framer Motion**.
 
-- **Framework**: React 19 (Vite)
-- **Styling**: Tailwind CSS 4 & DaisyUI 5
-- **Icons**: Lucide React
-- **Authentication**: Firebase Auth
-- **Routing**: React Router 7
-- **Animations**: AOS, Framer Motion
-- **Toasts**: React Hot Toast
-- **Slider**: Swiper.js
-- **Utility**: CLSX & Tailwind Merge
+### 🔐 Security & Auth
 
-## 📦 Main Dependencies Used
+- **Robust Authentication**: Powered by **Firebase Auth** (Email/Password & Google Login).
+- **Secure Profile**: Dedicated user profile with real-time metadata updates.
+- **Private Routes**: Protected brand details and coupon access logic.
+- **Password Recovery**: Automated forgot-password flow with direct email redirection.
 
-- `firebase`: Handles all backend authentication logic.
-- `react-fast-marquee`: Powering the smooth, high-performance brand logo scroll.
-- `react-copy-to-clipboard`: Enables standard clipboard interactions for coupon codes.
-- `aos`: Provides lightweight "animate on scroll" effects.
-- `framer-motion`: Used for advanced interactive transitions and micro-animations.
+### 🏷️ Coupon System
 
-## ⚙️ Installation & Setup
+- **Intelligent Search**: Real-time filtering for brand discovery.
+- **One-Click Clipping**: Native Clipboard API integration for instant coupon copying.
+- **Success Toasts**: Real-time user feedback via **React Hot Toast**.
+- **Mobile Responsive**: Fully optimized for every device size, from mobile to ultra-wide.
 
-1. **Clone the repository**:
+---
 
-   ```bash
-   git clone [your-repo-link]
-   cd discount-pro
-   ```
+## 🛠️ Tech Stack
 
-2. **Install dependencies**:
+- **Frontend Core**: [React 19](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/) + [DaisyUI 5](https://daisyui.com/)
+- **State & Logic**: Context API + Hooks
+- **Backend Services**: [Firebase](https://firebase.google.com/) (Auth & Hosting)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/) & [AOS](https://michalsnik.github.io/aos/)
 
-   ```bash
-   npm install
-   ```
+---
 
-3. **Environment Setup**:
-   Create a `.env` file in the root directory and add your Firebase credentials (see `.env.example`):
+## 📦 Installation & Setup
 
-   ```env
-   VITE_apiKey=your_api_key
-   VITE_authDomain=your_auth_domain
-   VITE_projectId=your_project_id
-   VITE_storageBucket=your_storage_bucket
-   VITE_messagingSenderId=your_sender_id
-   VITE_appId=your_app_id
-   ```
+### 1. Prerequisite
 
-4. **Run the development server**:
+Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 
-   ```bash
-   npm run dev
-   ```
+### 2. Clone & Install
 
-5. **Build for production**:
-   ```bash
-   npm run build
-   ```
+```bash
+git clone https://github.com/shopno8860/Discound-pro.git
+cd discount-pro
+npm install --legacy-peer-deps
+```
+
+### 3. Environment Configuration
+
+Create a `.env` file in the root directory and populate it with your Firebase configuration:
+
+```env
+VITE_apiKey=your_key
+VITE_authDomain=your_project.firebaseapp.com
+VITE_projectId=your_project_id
+VITE_storageBucket=your_project.firebasestorage.app
+VITE_messagingSenderId=your_id
+VITE_appId=your_app_id
+```
+
+### 4. Launch
+
+```bash
+# Development mode
+npm run dev
+
+# Production build
+npm run build
+```
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/   # Reusable UI components (Navbar, Footer, Cards)
+├── context/      # AuthContext for global state
+├── data/         # Mock data for brands (JSON)
+├── layouts/      # Main application structure
+├── pages/        # Route components (Home, Login, BrandDetails, etc.)
+├── routes/       # Private and Public routing logic
+└── utils/        # Firebase initialization and helpers
+```
+
+---
+
+## 📝 Author
+
+**Shopno**
+
+- GitHub: [@shopno8860](https://github.com/shopno8860)
+- LinkedIn: [Rakesh Al Yadin](https://www.linkedin.com/in/rakesh-al-yadin)
+
+---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Distributed under the MIT License. See `LICENSE` for more information.
