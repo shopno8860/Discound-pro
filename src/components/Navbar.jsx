@@ -33,7 +33,7 @@ const Navbar = () => {
         <NavLink
           to="/brands"
           className={({ isActive }) =>
-            isActive ? "text-primary font-bold" : ""
+            isActive ? "text-secondary font-bold" : ""
           }
         >
           <Grid size={18} /> Brands
@@ -44,7 +44,7 @@ const Navbar = () => {
           <NavLink
             to="/my-profile"
             className={({ isActive }) =>
-              isActive ? "text-primary font-bold" : ""
+              isActive ? "text-secondary font-bold" : ""
             }
           >
             <User size={18} /> My Profile
@@ -55,7 +55,7 @@ const Navbar = () => {
         <NavLink
           to="/about-dev"
           className={({ isActive }) =>
-            isActive ? "text-primary font-bold" : ""
+            isActive ? "text-secondary font-bold" : ""
           }
         >
           <Info size={18} /> About Dev
